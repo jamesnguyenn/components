@@ -1,0 +1,32 @@
+.input-search-list__viewSearch {
+    width: 343px;
+    height: 40px;
+    background: #F7F8F9;
+    border-radius: 4px;
+    margin-right: 8px;
+}
+
+.input-search-list__viewSearch .input-search-list__searchBox {
+    border: none;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #021337;
+    width: 343px;
+    background-color: transparent;
+}
+
+.input-search-list__viewSearch .input-search-list__searchBox input {
+    background-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.input-search-list__viewSearch .input-search-list__searchBox input::placeholder {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #677187;
+
+}

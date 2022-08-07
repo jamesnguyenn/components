@@ -1,0 +1,101 @@
+.custom__input__outline {
+    position: relative;
+    height: 50px;
+    overflow: hidden;
+}
+
+.custom__input__outline label {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    color: gray;
+    padding: 0px 16px;
+    margin: 0px;
+    transition: .1s ease-out;
+    transform-origin: left top;
+    pointer-events: none;
+}
+
+.custom__input__outline input {
+    height: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    outline: none;
+    border: 1px solid #D9DCE1;
+    border-radius: 8px;
+    padding: 13px 16px;
+    color: #021337;
+    width: 100%;
+    transition: 0.1s ease-out;
+}
+
+.custom__input__outline input:focus {
+    border-color: #2979FF;
+    padding-bottom: 4px;
+}
+
+.custom__input__outline.custom__input__outline__success input:focus {
+    border-color: #83DEBF;
+    padding-bottom: 4px;
+}
+
+.custom__input__outline.custom__input__outline__error input:focus {
+    border-color: #FDA19E;
+    padding-bottom: 4px;
+}
+
+.custom__input__outline.custom__input__outline__error input {
+    border-color: #FDA19E;
+    padding-bottom: 4px;
+}
+
+.custom__input__outline input:not(:placeholder-shown) {
+    padding-bottom: 4px;
+}
+
+.custom__input__outline input:focus+label {
+    color: #2979FF;
+    top: 12px;
+    font-size: 12px;
+    transform: translateY(-50%);
+}
+
+.custom__input__outline input:not(:placeholder-shown)+label {
+    top: 12px;
+    font-size: 12px;
+    transform: translateY(-50%);
+}
+
+.custom__input__check__maxlength {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translateY(-50%);
+}
+
+.custom__input__type__number {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.custom__input__type__number .btn__change {
+    background-color: #E8EAED;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}

@@ -1,0 +1,54 @@
+.lnd-menu-add-subject {}
+
+.lnd-menu-add-subject>.hrv-dropdown-menu-item:not(.hrv-dropdown-menu-item-disabled):hover {
+    background-color: #FFFFFF;
+
+}
+
+.lnd-menu-add-subject .lnd-menu-item {
+    width: 630px;
+    padding: 0px;
+}
+
+.lnd-menu-add-subject .lnd-menu-item .select-list-subject {
+    padding: 32px 16px 16px;
+    /* height: 82px; */
+    width: 100%;
+}
+
+.lnd-menu-add-subject .lnd-menu-item-view-button {
+    width: 100%;
+    height: 56px;
+    padding: 10px 16px;
+    padding-right: 0px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lnd-menu-add-subject .lnd-menu-item-view-button .btn-add-subject-default {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #021337;
+    padding: 10px 16px;
+    background: #E8EAED;
+    border-radius: 4px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.lnd-menu-add-subject .lnd-menu-item-view-button .btn-add-subject-default.status__primary {
+    color: #FFFFFF;
+    background: #2979FF;
+}
+
+.modal .hrv-modal.lnd-menu-add-subject .modal-content .hrv-modal-footer {
+    padding: 10px 16px;
+    border-top: 1px solid #E8EAED;
+}
+
+.modal .hrv-modal.lnd-menu-add-subject .modal-content .hrv-modal-body {
+    padding: 16px;
+}

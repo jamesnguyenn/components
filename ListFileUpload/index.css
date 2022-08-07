@@ -1,0 +1,125 @@
+.Custom__fileUpload .fileUpload__fileInfo {
+    width: 127px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #021337;
+    margin-left: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Custom__fileUpload .fileUpload__typeFile {
+    color: #677187;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 2px;
+}
+
+.Custom__fileUpload__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #021337;
+}
+
+.Custom__fileUpload .Custom__fileUpload__box {
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.Custom__fileUpload .Custom__fileUpload__container {
+    border: 1px dashed #D9DCE1;
+    background: #F7F8F9;
+    height: 64px;
+    padding: 16px;
+    border-radius: 4px;
+}
+
+.Custom__fileUpload .Custom__fileUpload__textTitle {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin-bottom: 4px;
+}
+
+.Custom__fileUpload .Custom__fileUpload__textSecondary {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #677187;
+}
+
+.Custom__fileUpload .ExTimeWork__viewListFile {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4px;
+}
+
+.Custom__fileUpload .fileUpload__viewItem {
+    position: relative;
+    width: 245px;
+    height: 64px;
+    padding: 14px 16px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border: 1px solid #D9DCE1;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.Custom__fileUpload .fileUpload__viewItem:hover {
+    background-color: #F7F8F9;
+}
+
+.fileUpload__viewItem .fileUpload__deleteItem {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.fileUpload__viewItem:hover .fileUpload__deleteItem {
+    visibility: visible;
+}
+
+.fileUpload__viewItem:hover .fileUpload__deleteItem:hover {
+    visibility: visible;
+    background-color: #D9DCE1;
+    border-radius: 16px;
+    transition: background-color 2s;
+}
+
+.Custom__fileUpload .fileUpload__fileInfo {
+    width: 110px;
+    margin-left: 12px;
+}
+
+.Custom__fileUpload .fileUpload__fileInfo .fileUpload__fileInfo__textName {
+    width: 105px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #021337;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Custom__fileUpload .fileUpload__typeFile {
+    color: #677187;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 2px;
+}

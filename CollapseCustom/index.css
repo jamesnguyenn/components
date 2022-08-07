@@ -1,0 +1,87 @@
+.Lnd-collapse-custom {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.Lnd-collapse-custom .hrv-collapse {
+    border: 1.5px solid #E8EAED;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.Lnd-collapse-custom.Lnd-box-shadow .hrv-collapse {
+    border: none;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 0px 16px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.Lnd-collapse-custom.Lnd-content-not-padding .hrv-collapse {
+    border: none;
+}
+
+.Lnd-collapse-custom .hrv-collapse-content {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.Lnd-collapse-custom .hrv-collapse-content>.hrv-collapse-content-box {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 24px !important;
+    padding-right: 24px;
+}
+
+.Lnd-collapse-custom.Lnd-box-shadow .hrv-collapse-content>.hrv-collapse-content-box {
+    padding-top: 0px;
+    padding-left: 16px !important;
+    padding-right: 16px;
+}
+
+.Lnd-collapse-custom.Lnd-content-not-padding .hrv-collapse-content>.hrv-collapse-content-box {
+    padding-top: 0px;
+    padding-left: 0px !important;
+    padding-right: 0px;
+}
+
+.Lnd-collapse-custom .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header {
+    min-height: 56px;
+    padding: 16px 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #021337;
+    border-radius: 8px;
+}
+
+.Lnd-collapse-custom.Lnd-content-not-padding .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header {
+    padding: 18px 0px;
+}
+
+.Lnd-collapse-custom.Lnd-box-shadow .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header {
+    padding: 18px 16px;
+}
+
+.Lnd-collapse-custom.Lnd-box-shadow .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header>.hrv-collapse-extra {
+    display: flex;
+    align-items: center;
+}
+
+.Lnd-collapse-custom .hrv-collapse>.hrv-collapse-item:not(.hrv-collapse-item-disabled):hover>.hrv-collapse-header {
+    background-color: #FFFFFF;
+}
+
+.Lnd-collapse-custom .hrv-collapse>.hrv-collapse-item-active.hrv-collapse-item>.hrv-collapse-header {
+    box-shadow: none;
+}
+
+.Lnd-collapse-custom .view-children {
+    padding: 0px;
+}
+
+.Lnd-collapse-custom.Lnd-box-shadow .view-children {
+    padding: 0px;
+}
+
+.Lnd-collapse-custom .icon-extra {
+    width: 40px;
+    text-align: center;
+}

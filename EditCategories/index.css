@@ -1,0 +1,150 @@
+.Lnd-edit-categories {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;
+    /* border-top: 1px solid #E8EAED; */
+    padding-left: 72px;
+    z-index: 500;
+}
+
+.Lnd-edit-categories .Lnd__createNew__combo__button {
+    max-width: 864px;
+    width: calc(100% - 48px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto 0px;
+}
+
+.Lnd-edit-categories .Lnd__createNew__combo__button .Lnd__createNew__saveCraft {
+    display: flex;
+    align-items: center;
+}
+
+.Lnd-edit-categories .Lnd__createNew__combo__button .Lnd__createNew__saveCraft .btn__close {
+    color: #021337;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-right: 16px;
+}
+
+.Lnd-edit-categories .Lnd__createNew__combo__button .Lnd__createNew__saveCraft .text__btn {
+    color: #021337;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+.Lnd-edit-categories .Lnd__createNew__combo__button .Lnd__createNew__saveCraft .text__noti__save__craft {
+    color: #677187;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    margin-left: 16px;
+}
+
+.Lnd-edit-categories .Lnd__createNew__combo__button .Lnd__createNew__button__save {
+    margin-left: 8px;
+}
+
+.Lnd-edit-categories .Lnd__createNew__combo__button .Lnd__createNew__button__disable {
+    margin-left: 8px;
+    background: #D9DCE1;
+    color: #81899B;
+    cursor: unset;
+}
+
+.LnD-categories-edit__container {
+    background-color: #f7f8f9;
+    min-height: calc(100vh - 125px);
+    overflow: auto;
+    margin: 0 auto;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+.LnD-categories-edit__main-content {
+    max-width: 864px;
+    width: calc(100% - 48px);
+    margin: 20px auto;
+}
+
+.Lnd-categories-list-drag-drop {
+    width: 100%;
+    margin: 16px auto;
+    border: 1px solid #E8EAED;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 40px;
+    padding-bottom: 8px;
+}
+
+.Lnd-categories-list-drag-drop .header-drag-drop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+}
+
+.Lnd-categories-list-drag-drop .header-drag-drop .button-header-drag-drop {
+    display: flex;
+    align-items: center;
+}
+
+.Lnd-categories-list-drag-drop .header-drag-drop .button-header-drag-drop .btn-item-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    border-radius: 18px;
+    visibility: hidden;
+    margin-left: 8px;
+}
+
+.Lnd-categories-list-drag-drop .header-drag-drop:hover .button-header-drag-drop .btn-item-header {
+    visibility: visible;
+}
+
+.Lnd-categories-list-drag-drop .header-drag-drop:hover.dragStart .button-header-drag-drop .btn-item-header {
+    visibility: hidden;
+}
+
+.btn-add-categories {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding: 8px 12px;
+    border: 1.5px solid #E8EAED;
+    border-radius: 4px;
+    background-color: #f7f8f9;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #021337 !important;
+}
+
+.LnD-categories-edit__main-content .icon-drag {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 8px;
+}
+
+.LnD-categories-edit__main-content .icon-drag .style-drag {
+    cursor: move;
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+    cursor: grab;
+}

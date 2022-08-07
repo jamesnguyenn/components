@@ -1,0 +1,58 @@
+.carousel__maxWidth {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+}
+
+.carousel__container {
+    max-width: 100%;
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    scroll-behavior: smooth;
+}
+
+.carousel__container::-webkit-scrollbar {
+    display: none;
+}
+
+.carousel__buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+
+}
+
+.carousel__button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #FFFFFF;
+    border-radius: 16px;
+    border: none;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 100;
+    filter: drop-shadow(0px 16px 24px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 16px rgba(0, 0, 0, 0.06)) drop-shadow(0px 0px 1px rgba(0, 0, 0, 0.04));
+}
+
+.carousel__button:focus {
+    border: none;
+    outline: none;
+}
+
+.carousel__button__prev {
+    left: -16px;
+}
+
+.carousel__button__next {
+    right: -16px;
+}

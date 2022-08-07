@@ -1,0 +1,212 @@
+.lnd-content-item__classify-item {
+  background: #ffffff;
+  margin-bottom: 16px ;
+}
+
+.lnd-content-item__classify-item.is-Edit {
+  border: 3px solid #7fafff;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 0px 4px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+.lnd-content-item__classify-item.is-Edit .icon-drag-drop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 16px;
+}
+
+.lnd-content-item__classify-item.is-Edit .icon-drag-drop .button-drag-drop {
+  cursor: all-scroll;
+}
+
+.lnd-content-item__classify-item.is-Edit .lnd-content-item__action {
+  padding: 8px 16px 8px 24px;
+  border-top: 1px solid #e8eaed;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.lnd-content-item__classify-item.is-Edit .lnd-content-item__control {
+  margin-bottom: 16px;
+}
+
+.lnd-content-item__body {
+  padding: 0 24px;
+}
+
+.lnd-content-item__classify-item.is-View .icon-drag-drop {
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+}
+.lnd-content-item__classify-item.is-View .icon-drag-drop .button-drag-drop {
+  cursor: all-scroll;
+}
+
+.lnd-content-item__classify-item.is-View {
+  padding: 8px 24px 16px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 0px 4px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}
+
+.lnd-content-item__classify-item.is-View:hover .icon-drag-drop {
+  opacity: 1;
+}
+
+.lnd-content-item__name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  width: 100%;
+}
+
+.lnd-content-item__name.classify{
+  font-size: 18px;
+}
+
+.lnd-content-item__name.error {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #677187;
+  width: 50%;
+}
+
+.lnd-content-item__name.error.name {
+  color: #021337;
+}
+
+.lnd-content-item__description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4e5a73;
+
+  margin-bottom: 5px;
+  margin-top: 7px;
+}
+
+.lnd-content-item__btn:hover {
+  cursor: pointer;
+}
+
+.lnd-content-item__control input {
+  width: 100%;
+  padding-bottom: 4px;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: hidden;
+  border-bottom: 1px solid transparent;
+}
+
+.lnd-content-item__control input:focus {
+  border-bottom: 1px dashed #81899b;
+}
+
+.lnd-content-item__control input.error.lnd-content-item__input-name:focus {
+  width: 50%;
+  border-bottom: 1px solid #fda19e;
+}
+
+.lnd-content-item__control input.error.lnd-content-item__input-name,
+.lnd-content-item__name.error {
+  border-bottom: 1px solid #fda19e;
+  width: 50%;
+}
+
+.lnd-content-item__input-name {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.lnd-content-item__input-description {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4e5a73;
+}
+
+.lnd-content-item__control input {
+  outline: none;
+}
+
+.input-field-error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #ca4e4a;
+}
+
+/* .lnd-content-item__control hr {
+  border: 1px dashed #b8bdc7;
+  opacity: 0;
+  margin-top: 3px;
+} */
+
+.lnd-content-item__input-name:hover,
+.lnd-content-item__input-description:hover {
+  border-bottom: 1px dashed #81899b;
+}
+
+.input-validate-error {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #ca4e4a;
+  padding-top: 8px;
+}
+
+.span-validate-empty {
+  position: absolute;
+  top: 1px;
+  left: 15%;
+
+  color: #ca4e4a;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.lnd-content-item__name.error .span-validate-empty {
+  left: 30%;
+}
+
+.lnd-content-item__name.error {
+  display: flex;
+}
+
+.lnd-content-item__name.error .span-validate-empty-view {
+  color: #ca4e4a;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.lnd-content-item__classify-item.is-View.disable-drag {
+  padding-top: 32px;
+}
+
+.lnd-content-item__classify-item input:disabled {
+  background-color: #ffffff;
+  border-bottom: none !important;
+  outline: none;
+}
+
+.lnd-content-item__classify-item.error {
+  border: 1px solid #fd817d;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06), 0px 0px 4px rgba(0, 0, 0, 0.06),
+    0px 0px 1px rgba(0, 0, 0, 0.04);
+  border-radius: 4px;
+}

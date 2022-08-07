@@ -1,0 +1,191 @@
+.Lnd-collapse-categories-edit {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.Lnd-collapse-categories-edit .hrv-collapse {
+    border: none;
+    box-sizing: border-box;
+}
+
+.Lnd-collapse-categories-edit.Lnd-box-shadow .hrv-collapse {
+    border: none;
+    box-shadow: 0px 16px 24px rgba(0, 0, 0, 0.06), 0px 0px 16px rgba(0, 0, 0, 0.06), 0px 0px 1px rgba(0, 0, 0, 0.04);
+}
+
+.Lnd-collapse-categories-edit.Lnd-content-not-padding .hrv-collapse {
+    border: none;
+}
+
+.Lnd-collapse-categories-edit .hrv-collapse-content {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: 1px solid #D9DCE1;
+}
+
+.Lnd-collapse-categories-edit .hrv-collapse-content>.hrv-collapse-content-box {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 24px !important;
+    padding-right: 0px;
+}
+
+.Lnd-collapse-categories-edit .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header {
+    min-height: 56px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #021337;
+    border-radius: 0px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+
+.Lnd-collapse-categories-edit .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header .icon-collapse-categories {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -8px;
+}
+
+.Lnd-collapse-categories-edit.Lnd-content-not-padding .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header {
+    padding: 18px 0px;
+}
+
+.Lnd-collapse-categories-edit.Lnd-box-shadow .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header {
+    padding: 18px 16px;
+}
+
+.Lnd-collapse-categories-edit.Lnd-box-shadow .hrv-collapse>.hrv-collapse-item>.hrv-collapse-header>.hrv-collapse-extra {
+    display: flex;
+    align-items: center;
+}
+
+.Lnd-collapse-categories-edit .hrv-collapse>.hrv-collapse-item:not(.hrv-collapse-item-disabled):hover>.hrv-collapse-header {
+    background-color: #FFFFFF;
+}
+
+.Lnd-collapse-categories-edit .hrv-collapse>.hrv-collapse-item-active.hrv-collapse-item>.hrv-collapse-header {
+    box-shadow: none;
+}
+
+.Lnd-collapse-categories-edit .view-children {
+    padding: 0px;
+}
+
+.Lnd-collapse-categories-edit.Lnd-box-shadow .view-children {
+    padding: 0px;
+}
+
+.Lnd-collapse-categories-edit .icon-extra {
+    width: 40px;
+    text-align: center;
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories {
+    display: flex;
+    align-items: center;
+    height: 56px;
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories .icon-trash-subject {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background: #FFFFFF;
+    border: 1px solid #E8EAED;
+    border-radius: 18px;
+    visibility: hidden;
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories:hover .icon-trash-subject {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.Lnd-collapse-categories-edit .list-subject.dragStart .Lnd-item-subject-categories:hover .icon-trash-subject {
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories:hover .icon-trash-subject:focus {
+    background: #FFFFFF;
+}
+
+/* .Lnd-collapse-categories-edit .Lnd-item-subject-categories:hover {
+    background: #F4F4F6;
+    transition: background-color 1.5s;
+} */
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories .icon-subject {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2161CC;
+    border-radius: 16px;
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories .item-subject-content {
+    margin-left: 8px;
+    width: calc(100% - 40px);
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories .item-subject-content.item-enable-drag-drop {
+    width: calc(100% - 40px);
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories .item-subject-content .large-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #021337;
+}
+
+.Lnd-collapse-categories-edit .Lnd-item-subject-categories .item-subject-content .small-content {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #4E5A73;
+    margin-top: 2px;
+}
+
+.Lnd-collapse-categories-edit .list-subject .view-jobtitles-subject {
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.Lnd-collapse-categories-edit .list-subject {
+    /* background-color: green; */
+
+}
+
+.Lnd-collapse-categories-edit .list-subject.dragover {
+    border-top: 1px solid green;
+    /* background-color: red; */
+}
+
+
+.Lnd-collapse-categories-edit .view-jobtitles-subject .item-jobtitle-categories {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding: 4px 6px;
+    background-color: #4E5A73;
+    margin-right: 8px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-bottom: 4px;
+}

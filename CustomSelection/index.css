@@ -1,0 +1,14 @@
+.Lnd__mono__select .hrv-select-selection {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.Lnd__mono__select__icon__dropdown {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    cursor: pointer;
+}
